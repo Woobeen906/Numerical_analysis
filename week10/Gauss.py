@@ -5,7 +5,7 @@ from tkinter import filedialog
 from tkinter import *
 import warnings
 warnings.filterwarnings("ignore", category=np.VisibleDeprecationWarning)
-
+# 버전차이로 파일 리더시 필요
 root = Tk()
 
 root.title('Gauss')
